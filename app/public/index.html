@@ -3,14 +3,40 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Expresso Testing</title>
-		<link rel="stylesheet" href="./style.css">
+		<style>
+			body {
+				background-color: tan;
+				font-family: Geneva, Verdana, "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+				text-align: center;
+			}
+
+			form {
+				font-weight: bold;
+				font-size: 15px;
+				text-align: left;
+				margin: 10px 25%;
+			}
+
+			input{
+				border-radius: 7px;
+				width: 70%;
+				float: right;
+			}
+
+			.btn {
+				width: 25%;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
-			<h1>Expresso Testing with Mocha and Chai</h1>
+			<h1>Javascript Testing with Mocha and Chai</h1>
+			<p>By Josh Hedstrom <a href="https://www.jhedstrom.com">jhedstrom.com</a></p>
+			<br>
 		</header>
 		<main>
-			<p>Fill out this form to sign up! Password must be a least 8 characters, including uppercase and lowercase letters, a number, and a symbol.</p>
+			<p>Fill out this form to sign up! Password must be a least 8 characters, including <br> uppercase and lowercase letters, a number, and a symbol.</p>
+			<br>
 			<form id="signup" name="signup" method="post" action="/login">
 				<label for="firstname">First Name:</label> 
 				<input name="firstname" type="text" /> <br> <br>
@@ -27,8 +53,5 @@
 				<input class="btn" type="submit" value="Sign Up" />
 			</form>
 		</main>
-		<footer>
-			
-		</footer>
 	</body>
 </html>

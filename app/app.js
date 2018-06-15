@@ -5,20 +5,20 @@ module.exports = validateForm;
                 return 'Please Fill out all fields'
         }
 
-        if 
+        if (email) {}
 
     }
 
-const expect = require('chai').expect;
+// const expect = require('chai').expect;
 
-const multiply = function(x, y) {
-}
-describe('#multiply', () => {
-    it('should multiply correctly when given two numbers', () => {
-        expect(multiply(2, 3)).to.equal(6);
-    })
+// const multiply = function(x, y) {
+// }
+// describe('#multiply', () => {
+//     it('should multiply correctly when given two numbers', () => {
+//         expect(multiply(2, 3)).to.equal(6);
+//     })
 
-    it('should rturn flase when not given two numbers', () => {
-        expect(multiply('a', 3))
-    })
-})
+//     it('should rturn flase when not given two numbers', () => {
+//         expect(multiply('a', 3))
+//     })
+// })
