@@ -7,7 +7,7 @@ function validateForm(firstName, lastName, email, userName, password) {
     } else if (!passwordTester.test(password)) {
         return 'Please try a stronger password';
     } else {
-        return 'passed';
+        return 'Your credentials were validated! You are all signed up!';
     }
 
 }

@@ -1,7 +1,7 @@
 # expressoTests
 Javascript Testing Demo with Mocha and Chai
 
-This is a mock sign up page with a function that validates the signup form. 
+This is a mock sign up page a form validation to demonstrate Mocha and Chai Javascript Testing. 
 
 ## Getting Started
 If you don't already have [Node.js](https://nodejs.org/en/), you can download it with the default configurations.

@@ -16,6 +16,6 @@ describe('#validateForm', () => {
         expect(validateForm('John', 'Smith', 'jsmith@email.com', 'jsmith', '@#$%')).to.equal('Please try a stronger password');
     });
     it('All fields valid', () => {
-        expect(validateForm('John', 'Smith', 'jsmith@email.com', 'jsmith', 'asDF345#$')).to.equal('passed');
+        expect(validateForm('John', 'Smith', 'jsmith@email.com', 'jsmith', 'asDF345#$')).to.equal('Your credentials were validated! You are all signed up!');
     });
 })
