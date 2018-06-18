@@ -3,8 +3,8 @@ const expect = require('chai').expect;
 
 
 describe('#validateForm', () => {
-    it('should be fine for this one', () => {
-        expect(validateForm('firstName', 'lastName', 'email', 'username', 'password'));
+    it('Should pass test', () => {
+        expect(validateForm('firstName', 'lastName', 'email@email.com', 'username', 'asDF345#$')).to.equal('passed');
     })
 
     
